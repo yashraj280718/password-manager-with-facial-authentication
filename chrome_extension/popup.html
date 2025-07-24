@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SecurePass Autofill</title>
+  <style>
+    body { font-family: Arial, sans-serif; min-width: 220px; padding: 16px; }
+    button { padding: 8px 16px; font-size: 16px; margin-top: 10px; }
+    #status { margin-top: 10px; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <h3>SecurePass Autofill</h3>
+  <div>
+    <label for="site">Site/App:</label>
+    <input type="text" id="site" placeholder="example.com" style="width: 100%;" />
+  </div>
+  <button id="autofillBtn">Autofill</button>
+  <div id="status"></div>
+  <script src="popup.js"></script>
+</body>
+</html> 
